@@ -1,0 +1,21 @@
+{
+  "verbose": true,
+  "delay": "1000",
+  "ignore": [
+    ".git/*"
+  ],
+  "watch": [
+    "*.js",
+    "*.json",
+    ".env",
+    "Procfile",
+    "bin/*",
+    "config/*",
+    "controllers/*",
+    "helpers/*",
+    "middlewares/*",
+    "models/*",
+    "node_modules/*",
+    "views/*"
+  ]
+}
