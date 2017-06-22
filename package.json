@@ -1,0 +1,35 @@
+{
+  "name": "valitize-router",
+  "version": "0.0.1",
+  "description": "An enhanced Router for Express to make data sanitization and validation less painful.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --config ./nodemon.json ./starter.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newhouse/valitize-router.git"
+  },
+  "keywords": [
+    "Express",
+    "ExpressRouter",
+    "Router",
+    "Validation",
+    "Sanitze"
+  ],
+  "author": "Chris Newhouse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/newhouse/valitize-router/issues"
+  },
+  "homepage": "https://github.com/newhouse/valitize-router#readme",
+  "dependencies": {
+    "body-parser": "1.17.2",
+    "express": "4.15.3",
+    "express-validator": "3.2.0",
+    "lodash": "4.17.4",
+    "methods": "1.1.2",
+    "nodemon": "1.11.0"
+  }
+}
